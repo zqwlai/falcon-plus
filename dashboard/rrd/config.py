@@ -31,7 +31,7 @@ API_PASS = os.environ.get("API_PASS","password")
 PORTAL_DB_HOST = os.environ.get("PORTAL_DB_HOST","127.0.0.1")
 PORTAL_DB_PORT = int(os.environ.get("PORTAL_DB_PORT",3306))
 PORTAL_DB_USER = os.environ.get("PORTAL_DB_USER","root")
-PORTAL_DB_PASS = os.environ.get("PORTAL_DB_PASS","123qwe")
+PORTAL_DB_PASS = os.environ.get("PORTAL_DB_PASS","")
 PORTAL_DB_NAME = os.environ.get("PORTAL_DB_NAME","falcon_portal")
 
 # alarm database
@@ -39,7 +39,7 @@ PORTAL_DB_NAME = os.environ.get("PORTAL_DB_NAME","falcon_portal")
 ALARM_DB_HOST = os.environ.get("ALARM_DB_HOST","127.0.0.1")
 ALARM_DB_PORT = int(os.environ.get("ALARM_DB_PORT",3306))
 ALARM_DB_USER = os.environ.get("ALARM_DB_USER","root")
-ALARM_DB_PASS = os.environ.get("ALARM_DB_PASS","123qwe")
+ALARM_DB_PASS = os.environ.get("ALARM_DB_PASS","")
 ALARM_DB_NAME = os.environ.get("ALARM_DB_NAME","alarms")
 
 # ldap config
